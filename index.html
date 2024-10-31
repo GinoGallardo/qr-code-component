@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./dist/output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
@@ -16,13 +18,17 @@
 </head>
 <body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="w-10/12 flex flex-col items-center justify-center rounded-xl bg-slate-100 p-4 md:w-2/12">
+    <img class="rounded-xl" src="./images/image-qr-code.png" alt="Card Image">
+    <div class="p-4 md:p-5 font-outfit">
+      <h3 class="text-2xl font-bold font-outfit text-gray-950 text-center">
+        Improve your front-end skills by building projects
+      </h3>
+      <p class="mt-1 text-gray-600 text-center">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </div>
   </div>
+  <script src="./node_modules/preline/dist/preline.js"></script>
 </body>
 </html>
